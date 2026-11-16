@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: blueviolet;
+    
+    }
+div{
+    border: 1px solid grey;
+    width: 32%;
+    margin-top: 100px;
+    padding-left: 80px;
+    border-radius: 8px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 1px 3px 5px;
+    
+}
+strong{
+    margin-bottom: 10px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid blue;
+    margin-bottom: 20px;
+}
+form{
+    margin-bottom: 50px
+    
+}
+button{
+    background-color: green;
+    color: white;
+    width: 300px;
+
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+}
+span{
+    color: blue;
+    padding-left: 7px;
+}
+.man{
+    display: flex;
+    justify-content: center;
+}
+input::placeholder{
+    background-color: aliceblue;
+}
+</style>
+<body>
+    
+    <div>
+        <h1>Welcome Back</h1>
+        <p>Log in to your account</p>
+        <strong>Email</strong>
+        <form action="submit.js">
+            <input type="email" placeholder="john@example.com"><br>
+            <strong>Password</strong><br>
+            <input type="password" placeholder="Your Password"><br>
+            <button>Log in</button>
+            <p class="Man">Don't have an acccount?<span>Sign up</span></p>
+        </form>
+    </div>
+</body>
+</html>

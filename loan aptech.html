@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+      
+        *{
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+        }
+        header .big{
+            display: flex;
+            gap: 600px;
+            padding-bottom: 10px;
+        }
+        .big .james{
+            color: blue;
+            font-size: 2.5rem;
+            font-weight: bold;
+            padding-left: 50px;
+        }
+        .big .jamal{
+            display: flex;
+            gap: 20px;
+            
+        }
+        .jamal a{
+            text-decoration: none;
+            font-size: 1.2rem;
+            padding-top: 10px;
+        }
+        .jamal .mike{
+            text-decoration: underline;
+            color: white;
+            background-color: blue;
+            width: 100px;
+            text-align: center;
+            border-radius: 8px;
+            padding-top: 10px;
+        }
+        header{
+           width: 100%;
+           border-bottom: 1px solid rgb(254, 248, 248);
+           box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+           
+        
+        }
+        .middle{
+            display: flex;
+            justify-content: center;
+            margin: 70px;
+            flex-direction: column;
+            
+        }
+        .middle h1{
+            font-size: 3.4rem;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: bolder;
+        
+        }
+        .middle p{
+            text-align: center;
+            font-size: 1.2rem;
+            color: grey;
+        }
+        .rolls{
+            background-color: blue;
+            color: white;
+            font-size: 1.2rem;
+            width: 100px;
+            text-align: center;
+            position: relative;
+            left: 450px;
+            width: 200px;
+            padding: 10px 10px 10px 10px;
+            border-radius: 8px;
+            margin: 20px;
+            border: none;
+            box-shadow: 1px 3px 5px 3px rgba(0, 0, 0, 0.2);
+            font-weight: bolder;
+            cursor: pointer;
+        }
+        .flex{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card1{
+            flex-direction: column;
+            display: flex;
+    
+            width: 300px;
+            height: 300px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+        }
+        .card1 .b1{
+         color: blue;
+         font-size: 1.8rem;
+         font-weight: bolder;
+         text-align: center;
+          padding-bottom: 20px;
+        }
+        .card1 .bl1{
+            color: black;
+         font-size: 1.2rem;
+         font-weight: bold;
+         text-align: center;
+         padding-bottom: 20px;
+         
+        }
+        .card1 .gl1{
+            color: grey;
+            text-align: center;
+        }
+        .card2{
+             flex-direction: column;
+            display: flex; 
+            
+            width: 300px;
+            height: 300px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+        }
+        .card2 .b2{
+             color: blue;
+         font-size: 1.8rem;
+         font-weight: bolder;
+         text-align: center;
+          padding-bottom: 20px;
+        }
+        .card2 .bl2{
+            color: black;
+         font-size: 1.2rem;
+         font-weight: bold;
+         text-align: center;
+         padding-bottom: 20px;
+         
+        }
+        .card2 .gl2{
+             color: grey;
+            text-align: center;
+        }
+        .card3{
+            flex-direction: column;
+            display: flex;
+            
+            width: 300px;
+            height: 300px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+        }
+        .card3 .b3{
+            color: blue;
+         font-size: 1.8rem;
+         font-weight: bolder;
+         text-align: center;
+          padding-bottom: 20px; 
+        }
+        .card3 .bl3{
+             color: black;
+         font-size: 1.2rem;
+         font-weight: bold;
+         text-align: center;
+         padding-bottom: 20px;
+        }
+        .card3 .gl3{
+             color: grey;
+            text-align: center;
+        }
+        .word-box{
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            margin: 50px;
+        }
+        .word-box a{
+            text-decoration: none;
+            color: blue;
+            font-weight: bolder;
+        }
+        .word-box .dot{
+            color: grey;
+            font-size: 3.4rem;
+           position: relative;
+           bottom: 37px;
+        }
+        main{
+            background-color: aliceblue;
+            padding-top: 20px;
+        }
+        footer{
+            background-color: black;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            height: 200px;
+            align-items: center;
+            
+        }
+        .box-1 .top-1{
+            color: rgb(101, 101, 223);
+            font-size: larger;
+            font-weight: bolder;
+            margin-bottom: 15px;
+        }
+        .box-1 div{
+            color: white;
+        }
+        .box-1{
+       position: relative;
+       bottom: 30px;
+        }
+        .box-2 {
+            display: flex;
+            flex-direction: column;
+        }
+        .jesus a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            
+        }
+        .jesus{
+           
+        }
+        .box-2 .nav{
+            display: flex ;
+            flex-direction: column;
+        }
+        .nav a{
+            color: grey;
+            text-decoration: none;
+            margin-bottom: 5px;
+        }
+        .nav .w{
+            margin-top: 10px;
+        }
+        .support{
+            color: white;
+            font-weight: bold;
+        }
+        .con-1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .con-1 a{
+            color: grey;
+            text-decoration: none;
+            margin-bottom: 5px;
+        }
+        .con-1 .beam{
+            margin-top: 10px;
+        }
+        .con-2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+        .con-2 .love{
+            color: white;
+            font-weight: bold;
+        }
+        .con-2 a{
+             color: grey;
+            text-decoration: none;
+            margin-bottom: 5px;
+        }
+        .con-2 .m{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <div class="alice">
+    <nav class="big">
+        <div class="james">LoanAptech</div>
+        <div class="jamal">
+            <a href="#">Home</a>
+            <a href="#">Loans</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a class="mike" href="#">Sign Up</a>
+        </div>
+    </nav>
+   </header>
+   <main>
+   <div class="middle">
+    <h1>Welcome to LoanAptech</h1><br>
+    <p>Get instant personal up to $50,000 with low interest rates and flexible <br>repayment options.</p>
+    <button class="rolls">Apply Now,It's Free</button>
+   </div>
+   <div class="flex">
+    <div class="card1">
+       <p class=" b1"  >Lightning  <br>fast</p>
+       <p class="bl1"> Lightning Fast <br>Approval</p>
+       <p class="gl1">Get decision in under 10 minutes</p>
+    </div>
+    <div class="card2">
+        <p class="b2"> No <br> Paperwork</p>
+        <p  class="bl2"> No Paperwork <br>Required</p>
+        <p class="gl2">100% digital & hassle-free process</p>
+    </div>
+    <div class="card3">
+        <p class="b3"> Best <br>Rates</p>
+        <p class="bl3">Lowest Interest <br>Rate</p>
+        <p class="gl3">Apply for just 8.99% per rate</p>
+    </div>
+   </div>
+   <div class="word-box">
+    <div class="el">Already applied?</div>
+    <a href="#">Check Loan Status</a>
+    <div class="dot">.</div>
+    <a href="#">Go to Dashboard</a>
+   </div>
+   </main>
+   <footer>
+     <div class="box-1">
+       <div class="top-1">LoanAptech</div>
+       <div>Your trusted partner for fast, transparent,<br>and affordable prices</div>
+
+     </div>
+     <div class="box-2">
+     <div class="jesus">
+        <a href="#">Quick Links</a>
+     </div>
+     <div class="nav">
+     <a class="w" href="#">Home</a>
+     <a href="#">Loan products</a>
+     <a href="#">Apply Now</a>
+     <a href="#">About us</a>
+     </div>
+    </div>
+    <div class="con-1">
+        <div class="support">Support</div>
+        <a class="beam" href="#">Contact Us</a>
+        <a href="#">FAQ</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+    </div>
+    <div class="con-2">
+    
+        <div class="love">Get in Touch</div>
+        <a class="m" href="#">support@loanaptech.com</a>
+        <a href="#">+1(555)123-4567</a>
+       <a href="#"> Mon-Fri: 9AM-6PM EST</a>
+    
+    </div>
+
+   </footer>
+
+</div>
+</body>
+</html>

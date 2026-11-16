@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            display: flex;
+            justify-content: center space-between ;
+            align-items: center;
+            gap: 20px;
+            color: white;
+            text-decoration: none;
+        
+            
+            
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+        }
+        
+        
+        header{
+            background-color: black;
+            color: white;
+            text-align: center;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            height: 100px;
+            
+
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+        }
+         aside{
+            background-color: white;
+            width: 220px;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            border-top-right-radius: 10px;
+            border: 1px solid aliceblue;
+            box-shadow: 8px 8px 8px ;
+        }
+        .vertical-nav {
+            display: flex;
+            flex-direction: column;
+        
+
+        }
+        .vertical-nav a{
+            text-decoration: none;
+            color: black;
+            border: 1px solid lightblue;
+            border-radius: 4px;
+            margin: 10px;
+            padding: 7px;
+
+        }
+        .vertical-nav h3{
+            padding-top: 10px;
+        }
+        aside h3{
+            font-size: 1.5rem;
+            margin-left: 10px;
+        }
+        img{
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+        }
+        .mon{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 250px;
+            
+
+        
+        }
+        .mon .mark{
+            margin-top: 30px;
+            border: 1px solid grey;
+            min-height: 300px;
+            margin-left: 20px;
+            padding: 10px;
+            width: 70%;
+            border-radius: 15px;
+            background-color: white;
+        }
+        .mark strong{
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+        .mark p{
+             text-align: center;
+             padding-top: 10px;
+        }
+        .mark .null{
+            background-color: black;
+            color: white;
+            padding: 5px 10px 5px 10px;
+            border-radius: 5px;
+            border: none;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            margin-top: 55px;
+            
+        }
+        .container .drum{
+            border: 1px solid grey;
+            border-radius: 15px;
+            width: 15%;
+            margin-top: 50px;
+            height: 350px;
+            border-radius: 15px;
+            background-color: white;
+        }
+        .drum img{
+            margin-top: 10px;
+        }
+        .drum strong{
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            margin-top: 20px;
+            font-size: 1.2rem;
+        }
+        .drum p{
+            padding-top: 10px;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            text-align: center;
+
+        }
+        .drum button{
+            background-color: black;
+            color: white;
+            padding: 5px 10px 5px 10px;
+            border-radius: 5px;
+            border: none;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            margin-top: 60px;
+        }
+        .mane{
+            border: 1px solid grey;
+            margin-top: 55px;
+            border-radius: 15px;
+            width: 15%;
+            margin-left: 30px;
+            height: 350px;
+            background-color: white;
+
+        }
+        .mane img{
+            margin-top: 10px;
+        }
+        .mane strong{
+            font-size: 1.2rem;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+
+            
+        }
+        .mane p{
+            text-align: center;
+            margin-top: 10px;
+        }
+        .mane button{
+            background-color: black;
+            color: white;
+            padding: 5px 10px 5px 10px;
+            border-radius: 5px;
+            border: none;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            margin-top: 80px;
+        }
+        footer{
+            background-color: black;
+            height: 80px;
+            position: sticky;
+            bottom: 0;
+            margin-top: 20px;
+            width: 100%;
+            flex-direction: column;
+        }
+        footer nav{
+            display: flex;
+            justify-content: center;
+        
+        }
+        footer p{
+             color: white;
+             display: flex;
+             justify-content: center;
+             padding-top: 10px;
+        }
+        body{
+            background-color: #8FC8E8;
+            background: linear-gradient(to right, #6BC7C2,#8FC8E8,#7799C7);
+        }
+     
+        
+       
+        
+   
+        
+    </style>
+</head>
+<body>
+     <header>
+        <h1>
+            My Website
+        </h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+     </header>
+     <div class="container">
+        <aside>
+            <h3>Navigation</h3>
+             <div class="vertical-nav">
+            <a href="#">Dashboard</a>
+             <a href="#">Profile</a>
+              <a href="#">Setttings</a>
+               <a href="#">Model</a>
+                <a href="#">Invite</a>
+                <a href="#">Transaction</a>
+                <a href="#">Payment</a>
+            
+        </aside>
+        <div class="mon">
+            <div >
+                <h1> Profile Cards</h1>
+            </div>
+            <div class="mark">
+                <img class="nike" src="cat.jpeg" alt="">
+                <strong>
+                    Ada Lovelace
+                </strong>
+                <p>
+                    Mathematician and  <br>writer,known for her  <br>work on early  <br>computers
+                </p>
+                <button class="null">
+                    View Profile
+                </button>
+            </div>
+        </div>
+        <div  class="drum">
+            <img src="cat.jpeg" alt="">
+            <strong>Grace Hopper</strong>
+            <p>Computer Scientist <br> and US Navy rear  <br>admiral.Pioneer of <br> programming <br> languages</p>
+            <button>
+                View Profile
+            </button>
+        </div>
+        <div class="mane">
+            <img src="cat.jpeg" alt="">
+            <strong>Alan Turing</strong>
+            <p>Father of theoretical<br>computer science<br>and artificial<br>intelligence</p>
+            <button>View Profile</button>
+        </div>
+ 
+     </div>
+     <footer>
+        <nav>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Help</a>
+        </nav>
+        <p>&copy;2025 My Website</p>
+    </footer>
+
+</body>
+</html>

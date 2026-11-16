@@ -1,0 +1,378 @@
+
+    .piper{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 30px 0px 30px;
+    }
+    header{
+        display: flex;
+        
+    }
+    header nav{
+        position: relative;
+        left: 900px;
+        bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        
+    }
+    nav a{
+        text-decoration: none;
+        color: black;
+    }
+  .man{
+    display: flex;
+    border-radius: 20px;
+    background-color: pink;
+    width: 100%;
+    height: 130px;
+  }
+  .jon{
+    text-align: center;
+  }
+ .man .jon{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 10px;
+ }
+ .man .line{
+  
+    width: 5px;
+    height: 80%;
+    background-color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+ }
+ .pain{
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+ }
+ .pain button{
+    background-color: white;
+    border: none;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+ }
+ .pain button:hover{
+   background-color: salmon;
+   transform: scale(1.2);
+ }
+ .pain button:active{
+   opacity: 0.7;
+ }
+ .Big{
+    display: flex;
+    flex-direction: row;
+ }
+ .Big .lol{
+    background-color: darkred;
+    height: 300px;
+    width: 500px;
+    border-radius: 8px;
+    margin: 30px 10px 0px 0px;
+    display: flex;
+    align-items: flex-end;
+    
+    
+ }
+ .Big .weak{
+    display: flex;
+    flex-direction: column;
+ }
+ .weak .devil{
+    background-color: black;
+    height: 150px;
+    width: 600px;
+    border-radius: 8px;
+    margin-left: 5px;
+    padding-right: 80px;
+    margin-top: 30px;
+ }
+ .weak .young{
+    background-color: lightpink;
+    height: 130px;
+    width: 600px;
+    border-radius: 8px;
+    margin-left: 5px;
+    padding-right: 80px;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-end;
+ }
+ .lol .inside{
+    display: flex;
+    flex-direction: column;
+    
+    
+ }
+ .inside p{
+    margin-left: 20px;
+    color: pink;
+ }
+ .inside .male{
+    color: white;
+    position: relative;
+    top: 23px;
+    margin-left: 20px;
+    font-size: 1.1rem;
+ }
+ .devil .make{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 20px;
+   
+    
+ }
+ .make .yessica{
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: auto;
+    
+
+ }
+ .game .yam{
+    color: pink;
+    margin-top: 5px;
+    font-size: 0.8rem;
+ }
+ .make .game{
+    display: flex;
+    flex-direction: row;
+ }
+ .game .yall{
+    width: 50px;
+    background-color: pink;
+    height: 2px;
+    margin: 12px;
+
+ }
+ .young .sun{
+    margin-left: 20px;
+    
+ }
+ .sun .silver{
+    color: white;
+    position: relative;
+    top: 10px;
+    font-size: 1.2rem;
+ }
+ .sun .gold{
+    color: brown;
+    font-size: 0.8rem;
+ }
+ 
+ .lol:hover{
+   background-color:lightseagreen;
+   transition: 1s;
+   cursor: pointer;
+
+   
+ }
+ .devil:hover{
+   background-color: lightsalmon;
+   transition: 1s;
+   cursor: pointer;
+ }
+ .young:hover{
+   background-color: lightgray;
+   transition: 1s;
+   cursor: pointer;
+ }
+ h1{
+   position: relative;
+   left: 420px;
+ }
+ .squid{
+   display: flex;
+   gap: 10px;
+   justify-content: space-between;
+   
+ }
+ .wood{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+ }
+ .round{
+   background-color: pink;
+   border-radius: 50%;
+   height: 80px;
+   width: 80px;
+   border: 1px solid red;
+ }
+ .wood .yemi{
+   color: grey;
+   text-align: center;
+ }
+ .wood2 .round2{
+   background-color: pink;
+   border-radius: 50%;
+   height: 80px;
+   width: 80px;
+   border: 1px solid red;
+ }
+ .wood2 .sola{
+   color: grey;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+ }
+ .wood3 .round3{
+
+    background-color: pink;
+   border-radius: 50%;
+   height: 80px;
+   width: 80px;
+   border: 1px solid red;
+   font-size: 50px;
+   
+ }
+ .wood3 .melly{
+   text-align: center;
+   color: grey;
+ }
+ .wood2{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+ }
+ .wood3{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+ }
+
+ .mars{
+    display: flex;
+    background-color: pink;
+    border-radius: 8px;
+    margin: 20px;
+ }
+ .alice{
+    color: white;
+    margin-left: 40px;
+ }
+ .alice .lord{
+    color: white;
+    font-size: 1.5rem;
+ }
+ .mars .troy{
+    background-color: pink;
+    border: 2px solid white;
+    width: 170px;
+    height: 50px;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 600px;
+    border-radius: 8px;
+ }
+footer{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+footer .greek{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+}
+.greek .angel{
+    margin: 20px;
+}
+.angel a{
+    color: white;
+    font-size: 1.9rem;
+    text-decoration: none;
+}
+.greek .sure{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 30px;
+}
+.sure a{
+    color: white;
+}
+.lappy{
+   display: flex;
+   margin: 10px;
+   justify-content: space-between;
+   gap: 10px;
+}
+.lappy .mappy{
+   color: white;
+}
+.lappy .shappy{
+   color: white;
+   position: relative;
+   right: 300px;
+}
+.bicon{
+   display: flex;
+   justify-content: flex-end;
+   gap: 10px;
+   margin: 100px;
+}
+.bicon .icon-1{
+   border-radius: 50%;
+   background-color:black ;
+   border: 1px solid white;
+   width: 30px;
+   height: 30px;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.bicon .icon-2{
+   border-radius: 50%;
+   background-color:black ;
+   border: 1px solid white;
+   width: 30px;
+   height: 30px;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.bicon .icon-3{
+   border-radius: 50%;
+   background-color:black ;
+   border: 1px solid white;
+   width: 30px;
+   height: 30px;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.bicon .icon-4{
+   border-radius: 50%;
+   background-color:black ;
+   border: 1px solid white;
+   width: 30px;
+   height: 30px;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+

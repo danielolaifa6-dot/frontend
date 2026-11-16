@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        div{
+            display: inline-block;
+            width: 40%;
+            height: 140px;
+            margin-right: 20px;
+            border-radius: 15px;
+            background-color: rgb(189, 218, 243);
+            border: 1px solid grey; 
+            ;
+        }
+        .john{
+            border: 1px solid rgb(189, 218, 243) ;
+            width: 90%;
+            margin-top: 20px;
+
+        }
+        th,td{
+            background-color:rgb(189, 218, 243) ;
+            border: rgb(189, 218, 243) ;
+        }
+        
+        input{
+            width: 700px;
+            border-radius: 5px;
+            border: 1px solid;
+            height: 25px;
+        }
+    
+    
+
+        
+    </style>
+</head>
+<body>
+    <div>
+            <h1> Left Box</h1>
+            <p> Content for left box goes here</p>
+    </div>
+    <div>
+<h1> Right Box</h1>
+<p> Content for right box goes here</p>
+    </div>
+    <table class="john">
+        <tr>
+            <th>
+                #
+            </td>
+            <th>
+                Name
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Status
+            </th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>john@example.com</td>
+            <td>Active</td>
+        </tr>
+        <tr>
+            <td>
+                2
+            </td>
+            <td>
+                James Smith
+            </td>
+            <td>
+                james@example.com
+            </td>
+            <td>
+                Inactive
+            </td>
+        </tr>
+        <tr>
+            <td> 3</td>
+            <td>Bob Johnson</td>
+            <td>bob@example.com</td>
+            <td>Active</td>
+        </tr>
+         
+    </table>
+    <h1>Register User</h1>
+    <form action="submit.js">
+        <input type="Username" placeholder="Username"><br><br>
+        <input type="email" placeholder="Email"><br><br>
+        <input type="password" placeholder="password">
+    </form><br>
+    <button type="submit" style="background-color: green; color: white; height: 22px; width: 58px; border-radius: 8px; border: solid; ">Submit</button>
+    
+</body>
+</html>
