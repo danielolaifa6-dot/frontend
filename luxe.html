@@ -151,6 +151,7 @@
             color: white;
         
         }
+        
         .pic-1 .t1{
             position: relative;
             top: 280px;
@@ -205,8 +206,11 @@
         }
        .buy-box{
         display: flex;
-        gap: 20px;
-       
+        gap: 5px;
+        ;
+
+        justify-content: center;
+
         margin-top: 30px;
         ;
         
@@ -351,6 +355,9 @@
         flex-direction: column;
         border: 1px solid grey;
        }
+       .buy-3:hover{
+        transform: translateY(20px) scale(1.05);
+       }
        .img3{
          background: url(https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700)center/cover;
          width: 300px;
@@ -418,6 +425,7 @@
         display: flex;
         flex-direction: column;
         border: 1px solid grey;
+        
        }
        .cart-4{
          display: flex;
@@ -464,7 +472,47 @@
         background-color: black;
         color: white;
        }
-      
+       
+        .promo {
+            min-height: 370px;
+            display: flex;
+            align-items: center;
+            padding: 60px 10%;
+            background:
+                linear-gradient(90deg, rgba(0,0,0,.8), rgba(0,0,0,.15)),
+                url('https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1600') center/cover no-repeat  ;
+            color: white;
+            width: 100%;
+            margin-top: 70px;
+            margin-bottom: 70px;
+            
+        }
+        form{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+            
+        }
+        form input{
+           width: 300px; 
+           padding-top: 10px;
+           padding-bottom: 10px;
+           margin-top: 10px;
+
+        }
+       footer{
+        background-color: black;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        gap: 150px;
+        align-items: center;
+       }
+      .f1{
+        position: relative;
+        bottom: 45px;
+      }
     </style>
 </head>
 <body>
@@ -579,5 +627,49 @@
 
        </div>
     </section>
+    <div class="promo">
+<div >
+    <p style="color: #B38C4E ; padding-bottom: 10px; ">LIMITED TIME OFFER</p>
+    <P style="color: white;font-size: 1.9rem; font-weight: bolder;">Upgrade Your Style</P>
+    <p style="color: white;font-size: 1.9rem; font-weight: bolder; padding-bottom: 20px;">Save More.</p>
+    <p style="padding-bottom: 20px;">Enjoy up to 30% off selected collections</p>
+    <button style="color: white;background-color: rgb(242, 184, 76); padding: 10px 5px 10px 5px;border: none;">EXPLORE DEALS →</button>
+</div>
+
+    </div>    
+    
+<p style="color:  #B38C4E ;text-align: center; margin-bottom: 10px;">STAY IN THE LOOP</p>
+<H1 style="text-align: center; margin-bottom: 10px;">Get 10% Off Your First Order</H1>
+<p style="color: grey; text-align: center;">Suscribe to receive exclusive offers and new arrivals</p>
+<form action="submit.js">
+<input type="email" placeholder="Enter your email address">
+<button style="color: white; background-color: black;border: none;margin-bottom: 10px;position: relative;top: 10px;">SUBSCRIBE</button>
+</form>
+<footer>
+    <div class="f1">
+     <H1 style="color: white;">LUXE <span style="color: #B38C4E;">.</span></H1>
+     <p style="color: grey; position: relative ; left: 20px;">Fashion that defines your individuality.</p>
+    </div>
+    <div class="f2">
+    <p style="font-weight: bold; color: white; padding-bottom: 10px;">Quick Links</p>
+    <p style="color: grey; padding-bottom: 10px;">Home</p>
+    <p  style="color: grey;padding-bottom: 10px;">Shop</p>
+    <p  style="color: grey; padding-bottom: 10px;">Categories</p>
+    </div>
+    <div class="f2">
+    <p style="font-weight: bold; color: white; padding-bottom: 10px;">Customer Service</p>
+    <p style="color: grey; padding-bottom: 10px;">Contact Us</p>
+    <p  style="color: grey;padding-bottom: 10px;">Shipping Policy</p>
+    <p  style="color: grey; padding-bottom: 10px;">Returns & Refunds</p>
+    </div>
+    <div class="f3">
+    <p style="font-weight: bold; color: white; padding-bottom: 10px;">Follow Us</p>
+    <p style="color: grey; padding-bottom: 10px;">Instagram</p>
+    <p  style="color: grey;padding-bottom: 10px;">Facebook</p>
+    <p  style="color: grey; padding-bottom: 10px;">Tiktok</p>
+    </div>
+    </div>
+
+</footer>
 </body>
 </html>

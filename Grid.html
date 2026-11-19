@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID TRAINING</title>
+    <style>
+        .container{
+            display: grid;
+            width: 800px;
+            background-color: orangered;
+            height: 400px;
+           grid-template-columns: repeat(4, 1fr);
+             column-gap: 30px;
+            row-gap: 30px;
+        }
+        .container div{
+            background-color: blue;
+            color: white;
+            border: 1px solid black;
+        }
+        .yummy{
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        .polly{
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="yummy">Mango</div>
+        <div>Guava</div>
+        <div>Pawpaw</div>
+        <div>Pineapple</div>
+        <div>Orange</div>
+        <div>Water-melon</div>
+        <div>Straw-berry</div>
+        <div class="polly">Cucumber</div>
+        <div>Garden-egg</div>
+        <div>Grape</div>
+        <div>plantain</div>
+        <div>Cherries</div>
+    </div>
+</body>
+</html>

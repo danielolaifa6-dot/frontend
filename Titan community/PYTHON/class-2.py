@@ -164,3 +164,48 @@ age, day, time = values
 print(age)
 print(day)
 print(time)
+#DICTIONARY - collection of key-value pairs
+Student_info = {"First_name": ["Ifeoluwa", "Azeezat", "Olamide", "Glory"],
+             "Last_name": ["Jolaoso", "Benjamin", "Ogunseye", "Oluwaseun" ],
+              "Age":[12,16,18,22,],
+              "Gender": ["Female", "Male", "Female", "Female", ],
+              "Score": [70,50,78,89]
+
+}
+print(Student_info["First_name"][3])
+print(Student_info["Last_name"][3])
+print(Student_info["Age"][3])
+print(Student_info["Gender"][3])
+print(Student_info["Score"][1])
+
+#Dictionary methods are builts in fuctions used to manipulate dictionary
+Student_info.update({"Student_id":[1, 2, 3, 4]})
+print(Student_info)
+#keys - to get all the keys in adictionary
+print(Student_info.values())
+print(Student_info.keys())
+print(Student_info.items())
+for key, value in Student_info.items():
+    print(key, value) #to get value for eack key
+    animal = ["Dog", "Cat", "Pig", "Cow"]
+    print(dict.fromkeys(animal, "Mammal")) #fromkeys - to create a dictionary from a list while
+    print(Student_info.get("Last_name"))#to get the value of a key in a dictionary
+
+
+    #set
+    score = {10, 20, 30, 26, 10}
+    print(score)
+    print(dir(score))
+    score.add(30)
+    score.pop()
+    print(score)
+
+    Product_info = {"Product": ["Table", "Dell_laptop", "Chair", "Toyota"],
+                    "Category": ["Furniture", "Computer", "Furniture", "Car"],
+                    "no_of_products": [8000, 8543, 500, 1000]}
+    print(Product_info)
+    print(Product_info.values())
+    print(Product_info.items())
+    print(Product_info.keys())
+
+    
